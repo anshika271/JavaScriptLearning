@@ -51,7 +51,7 @@ checkWinner();
          });
 });
 
-const showWinner=()=>{
+const showWinner=(winner)=>{
     msg.innerText='Congratulations, Winner is ${winner}';
       msgConatiner.classList.remove("hide");
     disableBoxes();
